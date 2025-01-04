@@ -4,6 +4,6 @@ steps:
   args: ['clone', 'https://github.com/devopsgcp/cicd-using-gcp.git']
 
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'us-central1-docker.pkg.dev/cicd-2024/votingapp/vote:v1','-f vote-microservice\vote' ,'.']
+  args: ['build', '-t', 'us-central1-docker.pkg.dev/cicd-2024/votingapp/vote:v1','-f', 'vote-microservice\vote' ,'.']
 
 
