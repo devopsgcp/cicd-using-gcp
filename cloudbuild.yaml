@@ -1,4 +1,0 @@
-steps:
-# Step 1: Clone the GitHub repository
-- name: 'gcr.io/cloud-builders/git'
-  args: ['clone', 'https://github.com/devopsgcp/cicd-using-gcp.git']
